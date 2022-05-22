@@ -1,18 +1,45 @@
 
+function Header(){
+    return(
+        <header>
+            <nav>
+                <img src="./react-logo-text.png" width="150px"/>                 
+            </nav>            
+        </header>
+    )
+}
 
-
-function Page(){
+function Content(){
     return(
         <div>
-            <img src="./react-logo-text.png" width="150px" />
-            <h1>Fun facts about React</h1>
-            <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has wll over 100K satrs on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+            <h1>Reasons why i'm excited to learn React</h1>
+            <ol>      
+                <li>It's a popular library,
+                        so i'll be able to fit with the cool kids!</li>
+                <li>I'm more likely to get a job as a developer if i know React</li>
+            </ol>
+        </div>
+        
+    )
+}
+
+function Footer(){
+    return(
+        <footer>
+            <small>® 2022 Kenneth development. All rights reserved.</small>
+        </footer>
+    )
+}
+
+
+{/* <h1>Hello i'm {props.name} !</h1> */}
+
+function Page(){
+    return(     
+        <div>
+            <Header />
+            <Content />
+            <Footer />
         </div>
     )
 }
