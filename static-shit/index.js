@@ -1,7 +1,11 @@
+
+
 /*
 ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
 ReactDOM.render(<p>Sup homie!</p>, document.getElementById("root"))
 */
+
+/*
 function MainContent(){
     return (
         <div>
@@ -16,9 +20,22 @@ function MainContent(){
 
     )
 }
+*/
+
+//some code in a var
+/*
+const navbar = (
+    <nav>
+        <h1>ReActive</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+*/
 
 ReactDOM.render(
-    <div>
-        <MainContent />
-    </div>, 
+    navbar, 
     document.getElementById("root"))
