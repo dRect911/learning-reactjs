@@ -2,8 +2,13 @@
 function Header(){
     return(
         <header>
-            <nav>
-                <img src="./react-logo-text.png" width="150px"/>                 
+            <nav className="nav">
+                <img src="./react-logo-text.png" className="logo"/>
+                <ul className="nav-items">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>               
             </nav>            
         </header>
     )
@@ -11,7 +16,7 @@ function Header(){
 
 function Content(){
     return(
-        <div>
+        <div className="content">
             <h1>Reasons why i'm excited to learn React</h1>
             <ol>      
                 <li>It's a popular library,
@@ -25,8 +30,8 @@ function Content(){
 
 function Footer(){
     return(
-        <footer>
-            <small>® 2022 Kenneth development. All rights reserved.</small>
+        <footer className="footer">
+            <small className="footer-text">® 2022 Kenneth development. All rights reserved.</small>
         </footer>
     )
 }
