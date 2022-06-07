@@ -1,18 +1,5 @@
+import Header from "./Header";
 
-function Header(){
-    return(
-        <header>
-            <nav className="nav">
-                <img src="./react-logo-text.png" className="logo"/>
-                <ul className="nav-items">
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>               
-            </nav>            
-        </header>
-    )
-}
 
 function Content(){
     return(
@@ -48,7 +35,6 @@ function Page(){
         </div>
     )
 }
-
 
 
 ReactDOM.render(<Page />, document.getElementById("root"))
