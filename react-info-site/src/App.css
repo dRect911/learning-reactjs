@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   position: absolute;
   background-color: #21222A;
   width: 100%;
@@ -10,50 +10,61 @@
 }
 
 
-.nav-logo{
+.nav-logo {
   margin-left: 20px;
   align-items: center;
   display:flex;
   width:220px;
 }
-.nav-logo-svg{
+.nav-logo-svg {
   height: 50px;
 }
 
-.nav-logo-text{
+.nav-logo-text {
   margin-left: 15px;
   color: #61DAFB;
 }
 
-.nav-title{
+.nav-title {
   margin-right: 20px;
   color: #DEEBF8;
   font-weight: 600;
 }
 
-.main{
+.main {
   position: absolute;
   background-color: #282D35;
   width: 100%;
   height: 100%;
   left: 0px;
   top: 90px;
+  background-image: url(./img/react-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
-.big-title{
+.big-title {
   margin-left: 30px;
   color: white;
   font-size: 36px;
+  letter-spacing: -0.05em;
 }
 
-.fun-facts{
+.fun-facts {
   margin-left: 40px;
   color: white;
   font-size: 16px;
+  max-width: 400px;
 }
 
-.fact{
+.fun-facts > li {
   font-weight: 400;
+  padding-block: 10px;
+}
+
+.fun-facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
 
 .App {

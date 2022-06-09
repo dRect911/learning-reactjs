@@ -7,11 +7,11 @@ export default function Main(){
         <div className="main">            
             <h1 className="big-title">Fun facts about React</h1>
             <ul className="fun-facts">
-                <li className="fact">fact 1</li>
-                <li className="fact">fact 2</li>
-                <li className="fact">fact 3</li>
-                <li className="fact">fact 4</li>
-                <li className="fact">fact 5</li>
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K stars on Github</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousand of enterprise apps, including mobile apps</li>
             </ul>
         </div>
         
