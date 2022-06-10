@@ -1,0 +1,150 @@
+.body{
+  position: absolute;
+  background-color: #23252C;
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  position: relative;
+  background-color: #1A1B21;
+  margin: 80px 0 0 80px;
+  border-radius: 10px 10px 10px 10px;
+  height: 800px;
+  width: 320px;
+}
+
+/* info component styles */
+
+.info{
+  text-align: center;
+  margin-bottom: 20px;  
+}
+
+.info > img{
+  width: 320px;
+  border-radius: 10px 10px 0px 0px;  
+}
+
+.info--name{
+  font-size: 20px;
+  color: white;
+}
+
+.info--description{
+  font-size: 14px;
+  font-weight: 400;
+  color: #F3BF99;
+}
+
+.info--website{
+  font-size: 11px;
+  font-weight: 400;
+  color: #F5F5F5;
+}
+
+.info--btns{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0 35px;
+  padding-top: 10px;
+}
+
+.info--btns > button{
+  border-radius: 6px;
+  font-weight: 500;  
+  height:35px;
+  width: 115px;
+}
+
+.info--btns > button > a {
+  text-decoration: none;
+}
+
+.info--mail{
+  background-color:white;
+  color: #374151;
+  border: 1px solid #D1D5DB;
+  transition:0.5s;
+}
+
+.info--mail > a{
+  color: #374151;
+  transition:0.5s;
+}
+
+.info--mail:hover{
+  background-color:#374151;
+  color: white;
+}
+
+.info--mail > a:hover{
+  color: white;
+}
+
+.info--linkedin{
+  background-color: #5093E2;
+  color: white;
+  border: none;
+  transition:0.5s;
+}
+
+.info--linkedin:hover{
+  background-color: white;
+  color: #5093E2;
+  border: 1px solid white;
+}
+
+
+/* About component styles */
+
+.about{
+  color: white;
+  margin: 30px 35px 0 35px;
+}
+
+.about--title{
+  margin:0;
+}
+.about--description{
+  font-size: 10px;
+}
+
+
+/* Interests component styles */
+
+.interests{
+  color: white;
+  margin: 30px 35px 0 35px;
+}
+
+.interests--title{
+  margin:0;
+}
+.interests--description{
+  font-size: 10px;
+}
+
+
+/* Footer component styles */
+
+.footer{
+  position:absolute;
+  bottom:0;
+  height: 65px;
+  width: 100%;
+  background-color:#161619;
+  color:#918E9B;
+  font-size: 25px;  
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  /* padding: 10px 0; */
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer--icon{
+  margin:0 15px 0 15px;  
+}
+
+
