@@ -3,15 +3,20 @@ import logo from './logo.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import MainFeed from './components/MainFeed'
+import Card from './components/Card'
 
 function App() {
-
+//<Hero />
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <MainFeed />
+      <div className="cards">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      
     </div>
   )
 }
