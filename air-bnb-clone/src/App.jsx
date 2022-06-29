@@ -8,16 +8,13 @@ import data from './components/data'
 
 function App() {
 
-  const cards = data.map(card => {
-    return <Card 
-      img={card.img} 
-      rate={card.rate} 
-      reviews={card.reviews} 
-      location={card.location} 
-      title={card.title} 
-      cost={card.cost} 
-      openSpots={card.openSpots} 
-rate/>
+  const cards = data.map(item => {
+    return (
+      <Card 
+      key={item.id}
+      {...item}
+      />
+    )
   });
   
   return (
