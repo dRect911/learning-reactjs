@@ -1,42 +1,82 @@
-.App {
-  text-align: center;
+.body{
+  position: absolute;
+  /* background-color: #23252C; */
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar{
+  /* position: absolute; */
+  height:55px;
+  width: 100%;
+  background-color: #F55A5A;
+  color: white;
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar--icon{
+  font-size: 20px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar--title{
+  font-family: 'IBM Plex Sans';
+  font-weight: 600;
 }
 
-button {
-  font-size: calc(10px + 2vmin);
+.destination{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  font-family: 'IBM Plex Sans';
+}
+
+.destination--img{
+  height:180px;
+  width:130px;
+  border-radius: 5px;
+}
+
+.destination--details{
+  padding:10px;
+  width:550px;
+  height:180px;
+}
+
+.destination--icon{
+  color: #F55A5A;
+}
+
+.destination--location{
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.destination--link{
+  color: lightgray;
+  transition:0.5s;
+}
+
+.destination--link:hover{
+  color:#F55A5A;
+}
+
+.destination--title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.destination--date{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.destination--desc{
+  margin-top: 5px;
 }
